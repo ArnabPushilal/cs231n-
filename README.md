@@ -12,3 +12,4 @@ https://madalinabuzau.github.io/2016/11/29/gradient-descent-on-a-softmax-cross-e
 
 **Making Chain rule & gradient Easier for Neural Nets**
 http://cs231n.stanford.edu/vecDerivs.pdf - I followed the advice mentioned and coded out the classifier with very small batches to see what was going on in each matrice computation. This helped me visualize the problem . You will see that I have made such practice cells around the notebooks
+
