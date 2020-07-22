@@ -1,6 +1,9 @@
 # NOTES for this assigment
 
-Some helpful links I found along the way
+Some helpful links I found along the way for the CS231n standord course
+
+**Course link for contents of assignment and lecture modules**
+https://cs231n.github.io/
 
 
 **Gradient Computation for the SoftMax Classifier with cross entory loss**
