@@ -15,7 +15,7 @@ EDIT ** Lesson Learned watch till lecture 4 before starting the assignment, thin
 **Making Chain rule & gradient Easier for Neural Nets**
 http://cs231n.stanford.edu/vecDerivs.pdf - I followed the advice mentioned and coded out the classifier with very small batches to see what was going on in each matrice computation. This helped me visualize the problem . You will see that I have made such practice cells around the notebooks
 
-**Playing with the learning rate,activation functions,data points to help with NN intuition**
+**Playing with the learning rate,data points to help with NN intuition**
 https://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html
 
 
