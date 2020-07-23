@@ -15,6 +15,9 @@ EDIT ** Lesson Learned watch till lecture 4 before starting the assignment, thin
 **Making Chain rule & gradient Easier for Neural Nets**
 http://cs231n.stanford.edu/vecDerivs.pdf - I followed the advice mentioned and coded out the classifier with very small batches to see what was going on in each matrice computation. This helped me visualize the problem . You will see that I have made such practice cells around the notebooks
 
+**Playing with the learning rate,activation functions,data points to help with NN intuition**
+https://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html
+
 
 **Why Sigmoid functions are bad?**
 The sigmoid neuron is that when the neuron’s activation saturates at either tail of 0 or 1, the gradient at these regions is almost zero. Recall that during backpropagation, this (local) gradient will be multiplied to the gradient of this gate’s output for the whole objective. Therefore, if the local gradient is very small, it will effectively “kill” the gradient and almost no signal will flow through the neuron to its weights and recursively to its data. Additionally, one must pay extra caution when initializing the weights of sigmoid neurons to prevent saturation. For example, if the initial weights are too large then most neurons would become saturated and the network will barely learn.
